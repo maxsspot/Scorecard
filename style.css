@@ -34,8 +34,8 @@ td {
 }
 
 td {
-  border-bottom:black solid 1px;
-  border-top:black solid 1px;
+  border:black solid 1px;
+  border-radius:5px;
 }
 
 .score {
