@@ -33,6 +33,11 @@ td {
   margin: auto;
 }
 
+td {
+  border-bottom:black solid 1px;
+  border-top:black solid 1px;
+}
+
 .score {
   width: 40px;
   height: 40px;
