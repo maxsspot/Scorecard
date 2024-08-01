@@ -33,9 +33,14 @@ td {
   margin: auto;
 }
 
-td {
-  border:black solid 1px;
-  border-radius:5px;
+#p1namein,
+#p2namein,
+#p3namein,
+#p4namein, 
+#p5namein {
+    background-color:gainsboro; 
+    border-radius:5px;
+    width:150px;
 }
 
 .score {
