@@ -29,7 +29,7 @@
         <br>
         <table>
             <tr id = "p1row">
-		<input oninput="updateBg1()" type = "color" id = "bgp1color" />
+		<input onchange="updateBg1()" type = "color" id = "bgp1color" />
                 <td id = "p1namein" contenteditable="true">Player One</td>
                 <td><input id = "p1" class = "score" type = "number" /></td>
             </tr>
@@ -112,6 +112,18 @@ var playersAmount = document.getElementById("playersAmount");
 // Update player name bg color
 function updateBg1() {
 	p1Input.style.backgroundColor = document.getElementById ("bgp1color").value;
+}
+function updateBg2() {
+	p1Input.style.backgroundColor = document.getElementById ("bgp2color").value;
+}
+function updateBg3() {
+	p1Input.style.backgroundColor = document.getElementById ("bgp3color").value;
+}
+function updateBg4() {
+	p1Input.style.backgroundColor = document.getElementById ("bgp4color").value;
+}
+function updateBg5() {
+	p1Input.style.backgroundColor = document.getElementById ("bgp5color").value;
 }
 		
 // Updates player names where it needs to be shown
