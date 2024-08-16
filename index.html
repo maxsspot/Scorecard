@@ -29,22 +29,27 @@
         <br>
         <table>
             <tr id = "p1row">
+		<input oninput="updateBg1()" type = "color" id = "bgp1color" />
                 <td id = "p1namein" contenteditable="true">Player One</td>
                 <td><input id = "p1" class = "score" type = "number" /></td>
             </tr>
             <tr id = "p2row">
+		<input type = "color" id = "bgp2color" />
                 <td id = "p2namein" contenteditable="true">Player Two</td>
                 <td><input id = "p2" class = "score" type = "number" /></td>
             </tr>
             <tr id = "p3row">
+		<input type = "color" id = "bgp3color" />
                 <td id = "p3namein" contenteditable="true">Player Three</td>
                 <td><input id = "p3" class = "score" type = "number" /></td>
             </tr>
             <tr id = "p4row">
+		<input type = "color" id = "bgp4color" />
                 <td id = "p4namein" contenteditable="true">Player Four</td>
                 <td><input id = "p4" class = "score" type = "number" /></td>
             </tr>
             <tr id = "p5row">
+		<input type = "color" id = "bgp5color" />
                 <td id = "p5namein" contenteditable="true">Player Five</td>
                 <td><input id = "p5" class = "score" type = "number" /></td>
             </tr>
@@ -103,6 +108,12 @@ var p5ShownScore2 = document.getElementById("p5score2");
 var endScreen = document.getElementById("gameEnd");
 var playersAmount = document.getElementById("playersAmount");
 
+
+// Update player name bg color
+function updateBg1() {
+	p1input.style.backgroundColor = document.getElementById ("bgp1color").value;
+}
+		
 // Updates player names where it needs to be shown
 setInterval(function() {
 	document.getElementById("p1name").innerHTML = p1Input.innerHTML;
