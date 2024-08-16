@@ -182,6 +182,10 @@ function nextHole() {
 
 // Ends game
 function endGame() {
+	var playerScores = [p1score, p2score, p3score, p4score, p5score]
+	playerScores.sort((a, b) => a - b);
+	console.log (playerScores);
+		     
 	endScreen.style.opacity = "1";
 	endScreen.style.pointerEvents = "all";
 
