@@ -182,7 +182,24 @@ function nextHole() {
 
 // Ends game
 function endGame() {
-	var playerScores = [p1score, p2score, p3score, p4score, p5score]
+	var playerScores = []
+	
+	if (p1score!=null) {
+		playerScores.push(p1score);
+	}
+	if (p2score!=null) {
+		playerScores.push(p2score);
+	}
+	if (p3score!=null) {
+		playerScores.push(p3score);
+	}
+	if (p4score!=null) {
+		playerScores.push(p4score);
+	}
+	if (p5score!=null) {
+		playerScores.push(p5score);
+	}
+	
 	playerScores.sort((a, b) => a - b);
 	console.log (playerScores);
 		     
