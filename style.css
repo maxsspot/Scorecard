@@ -31,7 +31,7 @@ input[type="color"] {
 table,
 tr,
 td {
-  border: transparent solid 1px;
+  border: black solid 1px;
   //border-bottom:black solid 1px;
   //border-top:black solid 1px;
   border-collapse: collapse;
