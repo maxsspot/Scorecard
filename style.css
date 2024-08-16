@@ -48,6 +48,7 @@ td {
     background-color:white;
     border-radius:5px;
     width:150px;
+    border:black solid 1px;
 }
 
 .score {
