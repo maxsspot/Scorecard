@@ -118,6 +118,15 @@ button {
   opacity: 0;
 }
 
+#p1sect2,
+#p2sect2,
+#p3sect2,
+#p4sect2,
+#p5sect2 {
+  padding:5px;
+  border-radius:5px;
+}
+
 #p1row {
   display: block;
 }
